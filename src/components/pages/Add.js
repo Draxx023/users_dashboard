@@ -62,7 +62,10 @@ export default function Add() {
                 <div className="container">
                     <div className="box-nav d-flex-justify-between">
                         <div className="filter">
-                            <a href="/" className="fas fa-angle-double-left">Tous les utilisateurs</a>
+                            <a href="/" className="d-flex">
+                                <i className="arrow text-blue fas fa-angle-double-left"></i>
+                                <p className="text-blue">Tous les utilisateurs</p>
+                            </a>
                         </div>
                     </div>
                     <div className="form-title text-center">

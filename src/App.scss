@@ -6,8 +6,9 @@
 }
 
 .primary-gradient{
-    background: #06283D;
-    background: linear-gradient(to right, #47B5FF, #06283D);
+    margin: 1em;
+    border: 2px solid #06283D;
+    border-radius: 10px;
     padding: 0.5rem;
 }
 

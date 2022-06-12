@@ -41,7 +41,7 @@ export default function Home() {
                 alert("Data deleted successfully.");
                 navigate('/');
             }).catch(error => {
-                setError(error.data.err);
+                alert(error.data.err);
             });
         }
     }

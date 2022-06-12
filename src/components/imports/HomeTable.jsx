@@ -6,7 +6,7 @@ export default function HomeTable(props) {
     let handleDelete = props.handler;
     return (
         <div className="box-nav d-flex-justify-between" >
-            <Link to="/add-user" className="border-shadow">
+            <Link to="/add-user" className="border-shadow primary-gradient">
                 <span className="text-gradient">
                     <span className="span">Nouveau utilisateur</span>
                     <i className="fa-solid fa-user"></i>

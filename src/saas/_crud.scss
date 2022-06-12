@@ -43,7 +43,7 @@ a {
 }
 
 .border-shadow{
-    border: 1px solid var(--border-btn);
+    border: 2px solid var(--border-btn);
     box-shadow: 1px 3px 10px #e9ecef;
 }
 
@@ -55,6 +55,10 @@ a {
     color: var(--blue);
 }
 
+.arrow{
+    padding-top: 4px;
+    margin-right: 4px;
+}
 
 .inline{
     display: inline-block;
@@ -104,7 +108,11 @@ table{
     padding: .75em;
     vertical-align: top;
     text-align: center;
-    border-top: 1px solid var(--border);
+    border-top: 2px solid var(--border);
+}
+
+.table{
+    border: 2px solid var(--border);
 }
 
 .table td > a.btn{
@@ -123,8 +131,8 @@ table{
 
 .table .thead-dark th{
     color: #fff;
-    background-color: #fff ;
-    color: #32383e;
+    background-color: #32383e ;
+    color: #fff;
 }
 
 @media only screen and (max-width: 1024px){
@@ -138,7 +146,7 @@ table{
         left: -9999px;
     }
 
-    tr { border: 1px solid var(--border);}
+    tr { border: 1px 1px solid var(--border);}
 
     td{
         border: none;

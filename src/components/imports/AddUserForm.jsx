@@ -17,14 +17,14 @@ export default function AddUserForm(props) {
                 <div className="form-group">
                     <label htmlFor='Name' className="label-light">Nom Complet</label>
                     <input type="hidden" name="id" value="" />
-                    <input type="text" name="name" onChange={e => setName(e.target.value)} placeholder="Mark Stoenis" />
+                    <input type="text" name="name" onChange={e => setName(e.target.value)} placeholder="Lorem Ipsum" />
                 </div>
                 <div className="form-group">
                     <label htmlFor='Email' className="label-light">Email</label>
-                    <input type="text" name="email" onChange={e => setEmail(e.target.value)} placeholder="example@test.com" />
+                    <input type="text" name="email" onChange={e => setEmail(e.target.value)} placeholder="dolor@amet.si" />
                 </div>
                 <div className="form-group">
-                    <label htmlFor='gender' className="label-light">Gender</label>
+                    <label htmlFor='gender' className="label-light">Sexe</label>
                     <div className="radio inline">
                         <input type="radio" id="radio-2" name="gender" onChange={e => setGender(e.target.value)} value="Male" />
                         <label htmlFor="radio-2" className="radio-label">Homme</label>
